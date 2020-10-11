@@ -1,0 +1,14 @@
+/* This class overrides the Bootstrap CSS with custom attributes. */
+
+
+/* The body padding is because bootstrap fixed navbars overwrite containers below and Bootstrap recommends doing this. */
+body {
+  padding-top: 100px; 
+}
+
+/* This is one way of adding row and column separation. */
+.row {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  padding: 25px;
+}
